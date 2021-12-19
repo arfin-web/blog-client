@@ -1,10 +1,12 @@
-# Getting Started with Create React App
+# Welcome To Our Dev Blog
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Visit Our Web App](https://dev-blog-c923a.web.app/).
 
-## Available Scripts
+## Key Features
 
-In the project directory, you can run:
+### Separate User and Admin Dashboard
+### Multivendor Blogging Platform
+### Awesome User Interface and better User Experience
 
 ### `npm start`
 
