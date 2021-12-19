@@ -6,7 +6,7 @@ const Myblogs = () => {
     const [myblogs, setMyblogs] = useState([])
 
     useEffect(() => {
-        const url = `http://localhost:5000/blogs?email=${user.email}`;
+        const url = `https://serene-coast-20752.herokuapp.com/blogs?email=${user.email}`;
         fetch(url)
             .then(res => res.json())
             .then(data => setMyblogs(data))
@@ -14,7 +14,7 @@ const Myblogs = () => {
     const handleDelete = (id) => {
         const proceed = window.confirm('Do you want to delete this product ?')
         if (proceed) {
-            const url = `http://localhost:5000/blog/${id}`;
+            const url = `https://serene-coast-20752.herokuapp.com/blog/${id}`;
             fetch(url, {
                 method: "DELETE",
             })

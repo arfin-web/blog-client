@@ -22,7 +22,7 @@ const Addblog = () => {
         const newBlog = { name, email, title, details, fulldetails, image };
 
 
-        fetch('http://localhost:5000/blogs', {
+        fetch('https://serene-coast-20752.herokuapp.com/blogs', {
             method: "POST",
             headers: {
                 "content-type": "application/json"
